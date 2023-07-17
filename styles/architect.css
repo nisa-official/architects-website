@@ -71,12 +71,43 @@ nav li a {
     margin-top: 20px;
     width: 100%;
 }
+/* main style */
+main{
+    max-width: 1440px;
+    margin: 0 auto;
+}
+/* temas style */
+.teams-container{
+    display: flex;
+    align-items: center;
+}
+.teams-img-contaner{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 1.5rem;
+}
+.teams-content{
+    padding-left: 70px;
+    padding-right: 70px;
+
+}
+.teams-title{
+    font-size: 2.8rem;
+}
+.teams-title .quick-list{
+    color: #727272;
+}
+.teams-title .text-features{
+    color: #FF900E;
+    font-weight: 700px;
+}
 
 /* responsive media queries */
 /* mobile devices */
 @media screen and (max-width: 576px) {
     header{
         padding: 20px;
+        font-weight: 500;
     }
     nav{
         flex-direction: column;
